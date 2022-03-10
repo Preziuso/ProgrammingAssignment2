@@ -11,9 +11,12 @@ cacheSolve <- function(x, ...) {
 }
 
 i<-NULL
-set<- function (matrix)
+set<- function (matrix){
   m<-matrix
   i<-NULL
+}
+  m<-matrix
+
   
   get<-function(){
     m
